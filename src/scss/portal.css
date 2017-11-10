@@ -135,7 +135,7 @@
 
 @media (min-width: 1200px) {
   .sw-sidebar {
-    max-width: 320px;
+    max-width: 250px;
   }
 }
 
@@ -181,12 +181,13 @@
 
 .sw-sidenav {
   display: none;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .sw-toc-link {
+  font-size: 1.1em;
   display: block;
-  padding: .25rem 1.5rem;
+  padding: .5rem 1.5rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.65);
 }
@@ -196,8 +197,14 @@
   text-decoration: none;
 }
 
-.sw-toc-link .indicator {
+.sw-toc-link span:first-child {
+  padding-right: 10px;
+}
+
+.sw-toc-link span:last-child {
   float: right;
+  font-size: x-small;
+  margin-top: 6px;
 }
 
 .sw-toc-item.active {
