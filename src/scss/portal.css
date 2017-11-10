@@ -195,6 +195,8 @@
 .sw-toc-link:hover {
   color: rgba(0, 0, 0, 0.85);
   text-decoration: none;
+  background-color: #444;
+  color: #fff;
 }
 
 .sw-toc-link span:first-child {
