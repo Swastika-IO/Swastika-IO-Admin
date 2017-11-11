@@ -8128,7 +8128,7 @@ body::before {
 @media (min-width: 768px) {
   @supports (position: sticky) {
     .sw-links {
-      max-height: calc(100vh - 9rem);
+      max-height: calc(100vh - 8.5rem);
       overflow-y: auto;
     }
   }

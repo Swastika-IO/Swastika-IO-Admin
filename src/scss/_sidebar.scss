@@ -117,7 +117,7 @@ a[aria-expanded="true"]::before {
   
     @include media-breakpoint-up(md) {
       @supports (position: sticky) {
-        max-height: calc(100vh - 9rem);
+        max-height: calc(100vh - 8.5rem);
         overflow-y: auto;
       }
     }
