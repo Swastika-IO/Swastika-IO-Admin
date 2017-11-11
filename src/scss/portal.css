@@ -7975,6 +7975,14 @@ body::before {
   font-weight: 500;
 }
 
+.sw-navbar .navbar-nav .nav-link.breadcrumb-item::after {
+  content: '\e036';
+  margin-left: 20px;
+  font-family: 'Icons';
+  font-size: 0.6em;
+  margin-top: 0.25rem;
+}
+
 .sw-navbar .navbar-nav-svg {
   display: inline-block;
   width: 1rem;
@@ -8198,6 +8206,7 @@ body::before {
   padding: .25rem 1.5rem;
   font-size: 90%;
   color: #fff;
+  border-left: 4px solid transparent;
 }
 
 .sw-sidebar nav > div > ul > li > a:hover {
@@ -8211,6 +8220,7 @@ body::before {
   font-weight: 500;
   color: #209e91;
   background-color: transparent;
+  border-left-color: #209e91;
 }
 
 .card {

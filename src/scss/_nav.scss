@@ -51,6 +51,13 @@
         &.active {
           font-weight: 500;
         }
+        &.breadcrumb-item::after {
+          content: '\e036';
+          margin-left: 20px;
+          font-family: 'Icons';
+          font-size: 0.6em;
+          margin-top: 0.25rem;
+        }
       }
     }
   

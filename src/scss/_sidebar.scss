@@ -205,10 +205,11 @@ a[aria-expanded="true"]::before {
     padding: .25rem 1.5rem;
     font-size: 90%;
     color: #fff;
+    border-left: 4px solid transparent;
   }
   
   .sw-sidebar nav > div > ul > li > a:hover {
-    color: #209e91;
+    color: $color;
     text-decoration: none;
     background-color: transparent;
   }
@@ -216,6 +217,7 @@ a[aria-expanded="true"]::before {
   .sw-sidebar nav > div > ul > .active > a,
   .sw-sidebar nav > div > ul > .active:hover > a {
     font-weight: 500;
-    color: #209e91;
+    color: $color;
     background-color: transparent;
+    border-left-color: $color;
   }
