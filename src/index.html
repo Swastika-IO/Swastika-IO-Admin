@@ -211,7 +211,7 @@
       <main class="col-12 col-md-9 col-xl-10 py-md-3 px-md-4 sw-content" role="main">
         <div class="row">
           <div class="col-sm-8">
-            <h1 class="sw-title" id="content">Introduction</h1>
+            <h1 class="sw-title" id="content">Dashboard</h1>
           </div>
           <div class="col-sm-4">
             <nav aria-label="breadcrumb" role="navigation">
@@ -228,6 +228,44 @@
           </div>
         </div>
         <!-- https://bootstrapious.com/tutorial/sidebar/index4.html -->
+        <div class="row sortable">
+            <div class="col-sm-3">
+              <div class="card draggable1">
+                <div class="card-body">
+                  <h4 class="card-title">Draggable 1</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card draggable1">
+                <div class="card-body">
+                  <h4 class="card-title">Draggable 2</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card draggable1">
+                <div class="card-body">
+                  <h4 class="card-title">Draggable 3</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card draggable1">
+                <div class="card-body">
+                  <h4 class="card-title">Draggable 4</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
@@ -250,9 +288,12 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <div class="card">
+            <div class="card draggable-header">
               <div class="card-header">
-                Featured
+                Featured 
+                <button type="button" id="sidebarCollapse" class="btn btn-link move">
+                    <span class="oi oi-move"></span>
+                </button>
               </div>
               <div class="card-body">
                 <h4 class="card-title">Special title treatment</h4>
@@ -381,8 +422,9 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -392,6 +434,26 @@
       $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
       });
+
+      $( ".sortable" ).sortable({
+        revert: true
+      });
+      $( ".draggable" ).draggable({
+        cursor: "move", 
+        cursorAt: { top: 56, left: 56 },
+        connectToSortable: ".sortable",
+        helper: "clone",
+        revert: "invalid"
+      });
+      $( ".draggable-header" ).draggable({
+        cursor: "move", 
+        cursorAt: { top: 56, left: 56 },
+        connectToSortable: ".sortable",
+        handle:".card-header",
+        helper: "clone",
+        revert: "invalid"
+      });
+      $( "ul, li" ).disableSelection();
     });
   </script>
 </body>
