@@ -11,12 +11,21 @@
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./scss/portal.css">
   <link href="./node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+  <style>
+  </style>
 </head>
 
 <body>
+
   <header class="navbar navbar-expand navbar-dark flex-column flex-md-row sw-navbar">
+
     <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Swastika I/O">Swastika I/O
     </a>
+
+    <button type="button" id="sidebarCollapse" class="btn btn-link">
+      <span class="oi oi-menu"></span>
+    </button>
 
     <div class="navbar-nav-scroll">
       <ul class="navbar-nav sw-navbar-nav flex-row">
@@ -75,12 +84,14 @@
         </a>
       </li>
     </ul>
-
-    <a class="btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://github.com/twbs/bootstrap/archive/v4.0.0-beta.2.zip">Download</a>
+    <img data-src="holder.js/200x200" class="rounded-circle sw-avatar" alt="200x200" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15faa8dabce%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15faa8dabce%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2274.4296875%22%20y%3D%22104.5%22%3E200x200%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 36px; height: 36px;">
   </header>
-  <div class="container-fluid">
+
+  <!-- Page Content Holder -->
+  <div class="container-fluid wrapper">
     <div class="row flex-xl-nowrap">
-      <div class="col-12 col-md-3 col-xl-2 sw-sidebar">
+      <!-- Sidebar Holder -->
+      <div id="sidebar" class="col-12 col-md-3 col-xl-2 sw-sidebar">
         <form class="sw-search d-flex align-items-center">
           <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
           <button class="btn btn-link sw-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#sw-docs-nav"
@@ -93,25 +104,26 @@
           </button>
         </form>
 
+
         <nav class="collapse sw-links" id="sw-docs-nav">
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              <span class="oi oi-dashboard"></span> Dashboard <span class="indicator oi oi-chevron-right"></span>
+              <span class="oi oi-dashboard"></span> Dashboard
             </a>
-            <ul id="collapseExample" class="nav sw-sidenav collapse">
+            <ul id="collapseExample" class="collapse list-unstyled">
               <li class="">
                 <a href="#">Introduction</a>
               </li>
               <li>
-                <a href="#">Download</a> 
+                <a href="#">Download</a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-              <span class="oi oi-document"></span> Articles <span class="indicator oi oi-chevron-right"></span>
+              <span class="oi oi-document"></span> Articles
             </a>
-            <ul id="collapseExample2" class="nav sw-sidenav collapse">
+            <ul id="collapseExample2" class="collapse list-unstyled">
               <li class="active sw-sidenav-active">
                 <a href="#">Create Article</a>
               </li>
@@ -125,9 +137,9 @@
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-              <span class="oi oi-browser"></span> Pages <span class="indicator oi oi-chevron-right"></span>
+              <span class="oi oi-browser"></span> Pages
             </a>
-            <ul id="collapseExample3" class="nav sw-sidenav collapse">
+            <ul id="collapseExample3" class="collapse list-unstyled">
               <li class="">
                 <a href="#">Create Page</a>
               </li>
@@ -141,9 +153,9 @@
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-              <span class="oi oi-puzzle-piece"></span> Modules <span class="indicator oi oi-chevron-right"></span>
+              <span class="oi oi-puzzle-piece"></span> Modules
             </a>
-            <ul id="collapseExample4" class="nav sw-sidenav collapse">
+            <ul id="collapseExample4" class="collapse list-unstyled">
               <li class="">
                 <a href="#">Create Module</a>
               </li>
@@ -160,20 +172,146 @@
       </div>
 
       <main class="col-12 col-md-9 col-xl-10 py-md-3 pl-md-5 sw-content" role="main">
-        <h1 class="sw-title" id="content">Introduction</h1>
-        https://bootstrapious.com/tutorial/sidebar/index4.html
+        <div class="row">
+          <div class="col-sm-8">
+            <h1 class="sw-title" id="content">Introduction</h1>
+          </div>
+          <div class="col-sm-4">
+            <nav aria-label="breadcrumb" role="navigation">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item pull-right"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item pull-right"><a href="#">Library</a></li>
+                  <li class="breadcrumb-item pull-right active" aria-current="page">Data</li>
+                </ol>
+              </nav>
+          </div>
+        </div>
+        <!-- https://bootstrapious.com/tutorial/sidebar/index4.html -->
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Special title treatment</h4>
+                  <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input">
+                          Check me out
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <br>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                      </div>
+                      <br>
+                      <label for="basic-url">Your vanity URL</label>
+                      <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                      </div>
+                      <br>
+                      <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-addon">.00</span>
+                      </div>
+                      <br>
+                      <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <span class="input-group-addon">0.00</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class="card">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Special title treatment</h4>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
       </main>
     </div>
   </div>
 
 
 
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+      });
+    });
+  </script>
 </body>
 
 </html>

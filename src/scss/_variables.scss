@@ -1,7 +1,7 @@
 // Local docs variables
 $sw-black:        #000 !default;
 $sw-purple:        #563d7c !default;
-$sw-bg: #343a40 !default;
+$sw-bg: rgba(0,0,0,.5) !default;
 $sw-black-bright: lighten(saturate($sw-black, 5%), 15%) !default;
 $sw-black-light:  lighten(saturate($sw-black, 5%), 45%) !default;
 $sw-dark:          #2a2730 !default;

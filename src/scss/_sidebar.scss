@@ -51,8 +51,48 @@
   
   .sw-sidebar {
     order: 0;
-    // background-color: #f5f2f9;
+    background-color: $sw-bg;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: #fff;
+    
+    transition: all 0.3s;
+    &.active {
+      min-width: 80px;
+      max-width: 80px;
+      text-align: center;
+    }
+    &.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
+      top: auto;
+      bottom: 5px;
+      right: 50%;
+      -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+      transform: translateX(50%);
+  }
+
+  ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    /* background: #209e91; */
+}
+
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+  content: '\e036';
+  display: block;
+  position: absolute;
+  right: 20px;
+  font-family: 'Icons';
+  font-size: 0.6em;
+  margin-top: 0.25rem;
+}
+a[aria-expanded="true"]::before {
+  content: '\e034';
+}
+  
   
     @include media-breakpoint-up(md) {
       @supports (position: sticky) {
@@ -116,12 +156,12 @@
     display: block;
     padding: .5rem 1.5rem;
     font-weight: 500;
-    color: rgba(0, 0, 0, .65);
+    color: #fff;
   
     &:hover {
-      color: rgba(0, 0, 0, .85);
+      // color: rgba(0, 0, 0, .85);
       text-decoration: none;
-      background-color: #444;
+      background-color: #209e91;
       color: #fff;
     }
 
@@ -129,11 +169,11 @@
         padding-right: 10px;
     }
 
-    span:last-child{
-        float: right;
-        font-size: x-small;
-        margin-top: 6px;
-    }
+    // span:last-child{
+    //     float: right;
+    //     font-size: x-small;
+    //     margin-top: 6px;
+    // }
   }
   
   .sw-toc-item {
@@ -159,22 +199,23 @@
   }
   
   // All levels of nav
-  .sw-sidebar .nav > li > a {
+  
+  .sw-sidebar nav > div > ul > li > a {
     display: block;
     padding: .25rem 1.5rem;
     font-size: 90%;
-    color: rgba(0, 0, 0, .65);
+    color: #fff;
   }
   
-  .sw-sidebar .nav > li > a:hover {
-    color: rgba(0, 0, 0, .85);
+  .sw-sidebar nav > div > ul > li > a:hover {
+    color: #209e91;
     text-decoration: none;
     background-color: transparent;
   }
   
-  .sw-sidebar .nav > .active > a,
-  .sw-sidebar .nav > .active:hover > a {
+  .sw-sidebar nav > div > ul > .active > a,
+  .sw-sidebar nav > div > ul > .active:hover > a {
     font-weight: 500;
-    color: rgba(0, 0, 0, .85);
+    color: #209e91;
     background-color: transparent;
   }
