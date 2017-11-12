@@ -3,6 +3,13 @@ $body-bg: #000;
 $body-color: #111;
 $body-color:#fff;
 $color:#209e91;
+$link-color:#ffffff;
+$link-hover-color:#9bfff3;
+
+// form
+$input-focus-color:#fff;
+$input-placeholder-color:rgb(199, 199, 199);
+
 $card-bg:rgba(0,0,0,.5);
 $text-muted:#fff;
 
@@ -24,3 +31,4 @@ $theme-colors: (
 @import "card";
 @import "breadcrumb";
 @import "text";
+@import "nav-action";

@@ -87,7 +87,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
   right: 20px;
   font-family: 'Icons';
   font-size: 0.6em;
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
 }
 a[aria-expanded="true"]::before {
   content: '\e034';

@@ -218,14 +218,14 @@ sup {
 }
 
 a {
-  color: #209e91;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #135e57;
+  color: #9bfff3;
   text-decoration: underline;
 }
 
@@ -1722,7 +1722,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #fff;
   background-color: #fff;
   border-color: #5fdfd1;
   outline: none;
@@ -1730,7 +1730,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #868e96;
+  color: #c7c7c7;
   opacity: 1;
 }
 
@@ -2600,12 +2600,12 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #209e91;
+  color: #ffffff;
   background-color: transparent;
 }
 
 .btn-link:hover {
-  color: #135e57;
+  color: #9bfff3;
   text-decoration: underline;
   background-color: transparent;
   border-color: transparent;
@@ -4070,13 +4070,13 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #209e91;
+  color: #ffffff;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
 .page-link:focus, .page-link:hover {
-  color: #135e57;
+  color: #9bfff3;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #ddd;
@@ -7912,16 +7912,16 @@ body::before {
 
 .form-control {
   color: #fff;
-  border: 1px solid transparent;
+  border: solid transparent;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.4);
   box-shadow: none;
 }
 
 .form-control:focus {
   box-shadow: none;
   border-color: #4db1a7;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .sw-navbar {
@@ -8091,7 +8091,7 @@ body::before {
   right: 20px;
   font-family: 'Icons';
   font-size: 0.6em;
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
 }
 
 .sw-sidebar a[aria-expanded="true"]::before {
@@ -8224,6 +8224,57 @@ body::before {
   border-left-color: #209e91;
 }
 
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header + .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-header-small {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header-small:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header-small + .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-header-nav-pills {
+  padding: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header-nav-pills .nav-pills .nav-link {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0px;
+  min-width: 100px;
+}
+
+.card-header-nav-pills .nav-pills .nav-link:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header-nav-pills .nav-pills .nav-link.active, .card-header-nav-pills .nav-pills .show > .nav-link {
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
 .card {
   background-color: rgba(0, 0, 0, 0.2);
   border: none;
@@ -8237,6 +8288,20 @@ body::before {
   background: none;
   border: none;
   float: right;
+}
+
+.sw-nav-action .row div {
+  border-right: 1px solid #333;
+}
+
+.sw-nav-action .row div:last-child {
+  border-right: none;
+}
+
+.sw-nav-action .btn {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
 }
  
 

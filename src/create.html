@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./scss/portal.css">
-  <link href="../node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+  <link href="./node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
   <style>
   </style>
@@ -193,222 +193,147 @@
             </ul>
           </div>
           <div class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" href="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
-                <span class="oi oi-wrench"></span> Settings
-              </a>
-              <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
-                <li class="">
-                  <a href="#">Configurations</a>
-                </li>
-                <li>
-                  <a href="#">Cultures</a>
-                </li>
-              </ul>
-            </div>
+            <a class="sw-toc-link" data-toggle="collapse" href="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
+              <span class="oi oi-wrench"></span> Settings
+            </a>
+            <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
+              <li class="">
+                <a href="#">Configurations</a>
+              </li>
+              <li>
+                <a href="#">Cultures</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
 
       <main class="col-12 col-md-9 col-xl-10 py-md-3 px-md-4 sw-content" role="main">
         <div class="row">
-          <div class="col-sm-8">
-            <h1 class="sw-title" id="content">Dashboard</h1>
-          </div>
-          <div class="col-sm-4">
-            <nav aria-label="breadcrumb" role="navigation">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item pull-right">
-                  <a href="#">Home</a>
-                </li>
-                <li class="breadcrumb-item pull-right">
-                  <a href="#">Library</a>
-                </li>
-                <li class="breadcrumb-item pull-right active" aria-current="page">Data</li>
-              </ol>
-            </nav>
-          </div>
-        </div>
-        <!-- https://bootstrapious.com/tutorial/sidebar/index4.html -->
-        <div class="row sortable">
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 1</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 2</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 3</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 4</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-sm-12">
-            <div class="card draggable-header">
-              <div class="card-header">
-                Featured 
-                <button type="button" id="sidebarCollapse" class="btn btn-link move">
-                    <span class="oi oi-move"></span>
-                </button>
+            <div class="card sw-nav-action">
+              <div class="card-body">
+
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <button type="button" class="btn btn-link btn-block">
+                      <span class="oi oi-cloud-upload"></span> PUBLISH</button>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-eye"></span> PREVIEW</button>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-clipboard"></span> DRAFT</button>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-timer"></span> SCHEDULER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="card">
+              
+                <div class="card-header">
+                  Main content
+                  </div>
+                <div class="card-body">
+                  <input class="form-control form-control-lg" type="text" placeholder="Enter title here..." />
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Excerpt"></textarea>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Content"></textarea>
+                  </div>  
+            </div>
+            <div class="card">
+              <div class="card-header-nav-pills">
+                <ul class="nav nav-pills text-center" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                      aria-selected="true">SEO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                      aria-selected="false">Parents</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">Modules</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">Layout</a>
+                  </li>
+                </ul>
               </div>
               <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <input class="form-control" type="text" placeholder="Title" />
+                      <input class="form-control" type="text" placeholder="Name" />
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Keywords"></textarea>
+                      
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"> Check me out
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header">
+                Languages
+              </div>
+              <div class="card-body">
+                <form class="">
+                  <label class="custom-control custom-checkbox d-block">
+                    <input type="checkbox" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">English</span>
+                  </label>
+                  <label class="custom-control custom-checkbox d-block">
+                    <input type="checkbox" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Vietnam</span>
+                  </label>
                 </form>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
+
             <div class="card">
               <div class="card-header">
-                Featured
+                Article Type
               </div>
               <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <div class="input-group">
-                  <span class="input-group-addon" id="basic-addon1">@</span>
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-                <br>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                  <span class="input-group-addon" id="basic-addon2">@example.com</span>
-                </div>
-                <br>
-                <label for="basic-url">Your vanity URL</label>
-                <div class="input-group">
-                  <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
-                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-                <br>
-                <div class="input-group">
-                  <span class="input-group-addon">$</span>
-                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                  <span class="input-group-addon">.00</span>
-                </div>
-                <br>
-                <div class="input-group">
-                  <span class="input-group-addon">$</span>
-                  <span class="input-group-addon">0.00</span>
-                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="card">
-              <div class="card-header">
-                Featured
-              </div>
-              <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="card">
-              <div class="card-header">
-                Featured
-              </div>
-              <div class="card-body">
-                <h4 class="card-title">Special title treatment</h4>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Username</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <form class="">
+                  <label class="custom-control custom-radio d-block">
+                    <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Blank</span>
+                  </label>
+                  <label class="custom-control custom-radio d-block">
+                    <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Article</span>
+                  </label>
+                  <label class="custom-control custom-radio d-block">
+                    <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">List</span>
+                  </label>
+                  <label class="custom-control custom-radio d-block">
+                    <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Modules</span>
+                  </label>
+                </form>
               </div>
             </div>
           </div>
@@ -423,7 +348,7 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
@@ -435,25 +360,25 @@
         $('#sidebar').toggleClass('active');
       });
 
-      $( ".sortable" ).sortable({
+      $(".sortable").sortable({
         revert: true
       });
-      $( ".draggable" ).draggable({
-        cursor: "move", 
+      $(".draggable").draggable({
+        cursor: "move",
         cursorAt: { top: 56, left: 56 },
         connectToSortable: ".sortable",
         helper: "clone",
         revert: "invalid"
       });
-      $( ".draggable-header" ).draggable({
-        cursor: "move", 
+      $(".draggable-header").draggable({
+        cursor: "move",
         cursorAt: { top: 56, left: 56 },
         connectToSortable: ".sortable",
-        handle:".card-header",
+        handle: ".card-header",
         helper: "clone",
         revert: "invalid"
       });
-      $( "ul, li" ).disableSelection();
+      $("ul, li").disableSelection();
     });
   </script>
 </body>
