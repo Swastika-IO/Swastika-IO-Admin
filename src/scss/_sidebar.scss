@@ -161,7 +161,7 @@ a[aria-expanded="true"]::before {
     &:hover {
       // color: rgba(0, 0, 0, .85);
       text-decoration: none;
-      background-color: #209e91;
+      background-color: rgba(0, 0, 0, 0.25);
       color: #fff;
     }
 
@@ -212,7 +212,7 @@ a[aria-expanded="true"]::before {
   .sw-sidebar nav > div > ul > li > a:hover {
     color: $color;
     text-decoration: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.25);
   }
   
   .sw-sidebar nav > div > ul > .active > a,

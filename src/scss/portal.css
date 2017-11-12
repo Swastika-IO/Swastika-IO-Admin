@@ -8173,7 +8173,7 @@ body::before {
 
 .sw-toc-link:hover {
   text-decoration: none;
-  background-color: #209e91;
+  background-color: rgba(0, 0, 0, 0.25);
   color: #fff;
 }
 
@@ -8213,7 +8213,7 @@ body::before {
 .sw-sidebar nav > div > ul > li > a:hover {
   color: #209e91;
   text-decoration: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .sw-sidebar nav > div > ul > .active > a,
