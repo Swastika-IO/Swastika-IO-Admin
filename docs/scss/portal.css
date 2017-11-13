@@ -7899,7 +7899,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 body::before {
   position: fixed;
-  background: url(../img/blur-bg.jpg) center center no-repeat;
+  background: url(../img/bg.jpg) center center no-repeat;
   background-size: cover;
   content: '';
   height: 100%;
