@@ -1,8 +1,6 @@
 # Swastika-IO-Admin
 ✔ [ SIOA ] Swastika I/O Admin free portal / dashboard template based on Bootstrap 4
 
-* Theme inspired from "blur-admin" by Akveo
-
 ## Demo:  
 [https://swastika-io.github.io/Swastika-IO-Admin](https://swastika-io.github.io/Swastika-IO-Admin/)  
 ## Screenshot:  
