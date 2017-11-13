@@ -95,7 +95,7 @@
   <div class="container-fluid wrapper">
     <div class="row flex-xl-nowrap">
       <!-- Sidebar Holder -->
-      <div id="sidebar" class="col-12 col-md-3 col-xl-2 sw-sidebar">
+      <div id="sidebar" class="sw-sidebar">
         <form class="sw-search d-flex align-items-center">
           <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
           <button class="btn btn-link sw-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#sw-docs-nav"
@@ -112,104 +112,159 @@
         <nav class="collapse sw-links" id="sw-docs-nav">
           <div class="sw-toc-item">
             <a class="sw-toc-link" href="#">
-              <span class="oi oi-dashboard"></span> Dashboard
+              <span class="oi oi-dashboard"></span>
+              <span class="text">Dashboard</span>
             </a>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseArticleSubMenus" aria-expanded="false" aria-controls="collapseArticleSubMenus">
-              <span class="oi oi-document"></span> Articles
+              <span class="oi oi-document"></span>
+              <span class="text">Articles</span>
             </a>
             <ul id="collapseArticleSubMenus" class="collapse list-unstyled">
               <li class="active sw-sidenav-active">
-                <a href="#">Create Article</a>
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">List Article</a>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">Draft</a>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapsePageSubMenus" aria-expanded="false" aria-controls="collapsePageSubMenus">
-              <span class="oi oi-browser"></span> Pages
+              <span class="oi oi-browser"></span>
+              <span class="text">Pages</span>
             </a>
             <ul id="collapsePageSubMenus" class="collapse list-unstyled">
-              <li class="">
-                <a href="#">Create Page</a>
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">List Page</a>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">Draft</a>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseModuleSubMenus" aria-expanded="false" aria-controls="collapseModuleSubMenus">
-              <span class="oi oi-puzzle-piece"></span> Modules
+              <span class="oi oi-puzzle-piece"></span>
+              <span class="text">Modules</span>
             </a>
             <ul id="collapseModuleSubMenus" class="collapse list-unstyled">
-              <li class="">
-                <a href="#">Create Module</a>
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">List Module</a>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">Draft</a>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseAppearanceSubMenus" aria-expanded="false" aria-controls="collapseAppearanceSubMenus">
-              <span class="oi oi-brush"></span> Appearance
+              <span class="oi oi-brush"></span>
+              <span class="text">Appearance</span>
             </a>
             <ul id="collapseAppearanceSubMenus" class="collapse list-unstyled">
-              <li class="">
-                <a href="#">Create template</a>
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">List template</a>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
               </li>
               <li>
-                <a href="#">Draft</a>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" href="#collapseFileSubMenus" aria-expanded="false" aria-controls="collapseFileSubMenus">
-              <span class="oi oi-image"></span> Medias
+              <span class="oi oi-image"></span>
+              <span class="text">Medias</span>
             </a>
             <ul id="collapseFileSubMenus" class="collapse list-unstyled">
-              <li class="">
-                <a href="#">Medias</a>
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-image"></span>
+                  <span class="text">Medias</span>
+                </a>
               </li>
               <li>
-                <a href="#">Files</a>
+                <a href="#">
+                  <span class="oi oi-file"></span>
+                  <span class="text">Files</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" href="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
-                <span class="oi oi-wrench"></span> Settings
-              </a>
-              <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
-                <li class="">
-                  <a href="#">Configurations</a>
-                </li>
-                <li>
-                  <a href="#">Cultures</a>
-                </li>
-              </ul>
-            </div>
+            <a class="sw-toc-link" data-toggle="collapse" href="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
+              <span class="oi oi-wrench"></span>
+              <span class="text">Settings</span>
+            </a>
+            <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                    <span class="oi oi-list"></span>
+                  <span class="text">Configurations</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <span class="oi oi-globe"></span>
+                  <span class="text">Cultures</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
 
-      <main class="col-12 col-md-9 col-xl-10 py-md-3 px-md-4 sw-content" role="main">
-        <div class="row">
+      <main class="py-md-3 px-md-4 sw-content" role="main">
+        <!-- <div class="row">
           <div class="col-sm-8">
             <h1 class="sw-title" id="content">Dashboard</h1>
           </div>
@@ -226,46 +281,46 @@
               </ol>
             </nav>
           </div>
-        </div>
+        </div> -->
         <!-- https://bootstrapious.com/tutorial/sidebar/index4.html -->
         <div class="row sortable">
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 1</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 2</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 3</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="card draggable1">
-                <div class="card-body">
-                  <h4 class="card-title">Draggable 4</h4>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+          <div class="col-sm-3">
+            <div class="card draggable1">
+              <div class="card-body">
+                <h4 class="card-title">Draggable 1</h4>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
+          <div class="col-sm-3">
+            <div class="card draggable1">
+              <div class="card-body">
+                <h4 class="card-title">Draggable 2</h4>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card draggable1">
+              <div class="card-body">
+                <h4 class="card-title">Draggable 3</h4>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card draggable1">
+              <div class="card-body">
+                <h4 class="card-title">Draggable 4</h4>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
@@ -290,9 +345,9 @@
           <div class="col-sm-12">
             <div class="card draggable-header">
               <div class="card-header">
-                Featured 
+                Featured
                 <button type="button" id="sidebarCollapse" class="btn btn-link move">
-                    <span class="oi oi-move"></span>
+                  <span class="oi oi-move"></span>
                 </button>
               </div>
               <div class="card-body">
@@ -380,35 +435,35 @@
               <div class="card-body">
                 <h4 class="card-title">Special title treatment</h4>
                 <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Username</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First Name</th>
+                      <th scope="col">Last Name</th>
+                      <th scope="col">Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -422,9 +477,8 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-  <script src="./node_modules/ https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -435,25 +489,25 @@
         $('#sidebar').toggleClass('active');
       });
 
-      $( ".sortable" ).sortable({
+      $(".sortable").sortable({
         revert: true
       });
-      $( ".draggable" ).draggable({
-        cursor: "move", 
+      $(".draggable").draggable({
+        cursor: "move",
         cursorAt: { top: 56, left: 56 },
         connectToSortable: ".sortable",
         helper: "clone",
         revert: "invalid"
       });
-      $( ".draggable-header" ).draggable({
-        cursor: "move", 
+      $(".draggable-header").draggable({
+        cursor: "move",
         cursorAt: { top: 56, left: 56 },
         connectToSortable: ".sortable",
-        handle:".card-header",
+        handle: ".card-header",
         helper: "clone",
         revert: "invalid"
       });
-      $( "ul, li" ).disableSelection();
+      $("ul, li").disableSelection();
     });
   </script>
 </body>

@@ -8057,16 +8057,62 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 280px;
   transition: all 0.3s;
 }
 
 .sw-sidebar.active {
-  min-width: 80px;
-  max-width: 80px;
+  min-width: 70px;
+  max-width: 70px;
   text-align: center;
 }
 
-.sw-sidebar.active a[aria-expanded="false"]::before, .sw-sidebar #sidebar.active a[aria-expanded="true"]::before {
+.sw-sidebar.active .sw-toc-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sw-sidebar.active .sw-toc-item ul li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0;
+}
+
+.sw-sidebar.active .sw-toc-item ul li a .oi {
+  font-size: 0.8em;
+  padding-top: 5px;
+}
+
+.sw-sidebar.active .sw-toc-item .sw-toc-link {
+  display: initial;
+  padding: 0;
+  text-align: center;
+  font-size: 0.85em;
+  text-indent: -9999px;
+}
+
+.sw-sidebar.active .sw-toc-item .sw-toc-link span:first-child {
+  padding-right: 0;
+}
+
+.sw-sidebar.active .sw-toc-item .text {
+  display: none;
+}
+
+.sw-sidebar.active .sw-toc-item .sw-toc-link:hover {
+  background-color: transparent;
+}
+
+.sw-sidebar.active .sw-search {
+  display: none !important;
+}
+
+.sw-sidebar.active a[aria-expanded="false"]::before,
+.sw-sidebar.active a[aria-expanded="true"]::before {
   top: auto;
   bottom: 5px;
   right: 50%;
@@ -8075,7 +8121,63 @@ body::before {
   transform: translateX(50%);
 }
 
-.sw-sidebar ul li.active > a, .sw-sidebar a[aria-expanded="true"] {
+.sw-sidebar.active .oi {
+  margin-right: 0;
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  padding-right: 0;
+  text-indent: 0;
+  background-color: transparent;
+}
+
+.sw-sidebar .sw-toc-item ul li a {
+  display: block;
+  padding: .25rem 1.5rem;
+  font-size: 90%;
+  color: #fff;
+  border-left: 4px solid transparent;
+  padding-left: 2rem;
+}
+
+.sw-sidebar .sw-toc-item ul li a .oi {
+  margin-right: 5px;
+}
+
+.sw-sidebar .sw-toc-item ul li a:hover {
+  color: #209e91;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.sw-sidebar .sw-toc-item ul .active a,
+.sw-sidebar .sw-toc-item ul .active:hover a {
+  font-weight: 500;
+  color: #209e91;
+  background-color: transparent;
+  border-left-color: #209e91;
+}
+
+.sw-sidebar .sw-toc-item .sw-toc-link {
+  font-size: 1.1em;
+  display: block;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.sw-sidebar .sw-toc-item .sw-toc-link span:first-child {
+  padding-right: 10px;
+}
+
+.sw-sidebar .sw-toc-item .sw-toc-link:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.sw-sidebar ul li.active > a,
+.sw-sidebar a[aria-expanded="true"] {
   color: #fff;
   /* background: #209e91; */
 }
@@ -8084,7 +8186,8 @@ body::before {
   position: relative;
 }
 
-.sw-sidebar a[aria-expanded="false"]::before, .sw-sidebar a[aria-expanded="true"]::before {
+.sw-sidebar a[aria-expanded="false"]::before,
+.sw-sidebar a[aria-expanded="true"]::before {
   content: '\e036';
   display: block;
   position: absolute;
@@ -8128,7 +8231,7 @@ body::before {
 @media (min-width: 768px) {
   @supports (position: sticky) {
     .sw-links {
-      max-height: calc(100vh - 8.5rem);
+      max-height: calc(100vh - 5rem);
       overflow-y: auto;
     }
   }
@@ -8161,67 +8264,6 @@ body::before {
 .sw-sidenav {
   display: none;
   margin-left: 2rem;
-}
-
-.sw-toc-link {
-  font-size: 1.1em;
-  display: block;
-  padding: .5rem 1.5rem;
-  font-weight: 500;
-  color: #fff;
-}
-
-.sw-toc-link:hover {
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.25);
-  color: #fff;
-}
-
-.sw-toc-link span:first-child {
-  padding-right: 10px;
-}
-
-.sw-toc-item.active {
-  margin-bottom: 1rem;
-}
-
-.sw-toc-item.active:not(:first-child) {
-  margin-top: 1rem;
-}
-
-.sw-toc-item.active > .sw-toc-link {
-  color: rgba(0, 0, 0, 0.85);
-}
-
-.sw-toc-item.active > .sw-toc-link:hover {
-  background-color: transparent;
-}
-
-.sw-toc-item.active > .sw-sidenav {
-  display: block;
-}
-
-.sw-sidebar nav > div > ul > li > a {
-  display: block;
-  padding: .25rem 1.5rem;
-  font-size: 90%;
-  color: #fff;
-  border-left: 4px solid transparent;
-  padding-left: 3.25rem;
-}
-
-.sw-sidebar nav > div > ul > li > a:hover {
-  color: #209e91;
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-.sw-sidebar nav > div > ul > .active > a,
-.sw-sidebar nav > div > ul > .active:hover > a {
-  font-weight: 500;
-  color: #209e91;
-  background-color: transparent;
-  border-left-color: #209e91;
 }
 
 .card-header {
