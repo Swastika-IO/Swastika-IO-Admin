@@ -7912,7 +7912,7 @@ body::before {
 
 .form-control {
   color: #fff;
-  border: solid transparent;
+  border: solid rgba(248, 249, 250, 0.01);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: none;
@@ -8318,7 +8318,6 @@ body::before {
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 5px;
   position: relative;
