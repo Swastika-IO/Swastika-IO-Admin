@@ -23,4 +23,15 @@
           revert: "invalid"
         });
         $("ul, li").disableSelection();
+
+        $(window).on("scroll",function(){
+            var wn = $(window).scrollTop();
+          if(wn > 120){
+              $("header").css("background","rgba(0, 0, 0, 0.88)");
+          }
+          else{
+              $("header").css("background","rgba(0, 0, 0, 0.5)");
+          }
+        });
+
       });
