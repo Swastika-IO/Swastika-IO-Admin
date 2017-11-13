@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\"",
-    "scss-compile": "node-sass -rw assets/scss -o assets/css"
+    "scss-compile": "node-sass -rw assets/scss -o assets/css",
+    "build-dev": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -38,6 +40,18 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "webpack": "^3.8.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.4",
+    "csv-loader": "^2.1.1",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0",
+    "xml-loader": "^1.2.1"
   }
 }
