@@ -8361,6 +8361,10 @@ a:hover {
 .btn-link:disabled, .btn-link.disabled {
   color: #868e96;
 }
+
+.form-control:focus {
+  color: #72777a;
+}
  
 
  /*# sourceMappingURL= portal.white.css.map */
