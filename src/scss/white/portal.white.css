@@ -8320,8 +8320,9 @@ a:hover {
 
 .card-header-nav-pills .nav-pills .nav-link.active, .card-header-nav-pills .nav-pills .show > .nav-link {
   font-weight: bold;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #2196f3;
   background-color: transparent;
+  color: #72777a;
 }
 
 .card {

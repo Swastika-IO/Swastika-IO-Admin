@@ -47,8 +47,10 @@
     }
     .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
         font-weight: bold;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #2196f3;
         background-color: transparent;
+        color:$link-color;
+        
     }
 }
 .card{
