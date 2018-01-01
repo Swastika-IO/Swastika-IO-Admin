@@ -8065,7 +8065,7 @@ a:hover {
   color: #72777a;
   padding-right: 15px;
   padding-left: 15px;
-  width: 280px;
+  width: calc(100vw - 4rem);
   transition: all 0.3s;
 }
 
@@ -8364,6 +8364,4 @@ a:hover {
 .form-control:focus {
   color: #72777a;
 }
- 
-
- /*# sourceMappingURL= portal.white.css.map */
+/*# sourceMappingURL=portal.white.css.map */

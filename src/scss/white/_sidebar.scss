@@ -47,7 +47,7 @@
     color: $color;
     padding-right: 15px;
     padding-left: 15px;
-    width: 280px;
+    width: calc(100vw - 4rem);
     transition: all 0.3s;
     &.active { // Active
         min-width: 70px;
