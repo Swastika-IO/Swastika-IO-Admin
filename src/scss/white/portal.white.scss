@@ -24,7 +24,7 @@ $theme-colors: (
     "danger": #ff4136
   );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap"; 
 
 // @import "../node_modules/bootstrap/scss/functions";
 // @import "../node_modules/bootstrap/scss/variables";
@@ -33,6 +33,7 @@ $theme-colors: (
 @import "variables";
 @import "reboot";
 @import "nav";
+@import "navbar";
 @import "sidebar";
 @import "card";
 @import "breadcrumb";
