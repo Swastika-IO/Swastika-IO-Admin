@@ -11,12 +11,12 @@
     "build-dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "liveSassCompile.settings.formats":[
-      {
-          "format": "compressed",
-          "extensionName": ".min.css",
-          "savePath": "~/../css/"
-      }
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css/"
+    }
   ],
   "repository": {
     "type": "git",
