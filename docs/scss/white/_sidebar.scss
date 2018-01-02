@@ -54,8 +54,6 @@
         max-width: 70px;
         text-align: center;
         .sw-toc-item {
-            padding-top: 10px;
-            padding-bottom: 10px;
             ul li a {
               padding-top: 5px;
               padding-bottom: 5px;
@@ -68,21 +66,41 @@
               }
             }
             .sw-toc-link {
-                display: initial;
-                padding: 0;
+                // display: initial;
+                padding-top: 10px;
+                padding-bottom: 10px;
                 text-align: center;
                 font-size: 0.85em;
                 text-indent: -9999px;
                 span:first-child {
                     padding-right: 0;
                 }
-                
+
+                &:hover {
+                    color: #fff;
+                    text-decoration: none;
+                    // background-color: #2196f3 !important;
+                    //color: #fff;
+                    span:first-child {
+                        color: #fff;
+                    }
+                }
             }
             .text {
                 display: none;
             }
             .sw-toc-link:hover {
                 background-color: transparent;
+            }
+
+            &:hover {
+                // background-color: #2196f3 !important;
+                .sw-toc-link {
+                    color: #0c83e2 !important;
+                    span:first-child {
+                        color: #0c83e2;
+                    }
+                }
             }
         }
         .sw-search {
