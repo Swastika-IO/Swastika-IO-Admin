@@ -131,6 +131,19 @@
         margin: 0;
         padding: 0;
     }
+    .btn-group{
+        float: right; 
+        margin-right: 10px;
+        .btn{
+            padding: .25rem .35rem;
+            font-size: .575rem;
+            .oi{
+                padding: 0 !important;
+                margin:0;
+                color: #2196f3 !important;
+            }
+        }
+    }
     .sw-toc-item {
         
         list-style: none;
