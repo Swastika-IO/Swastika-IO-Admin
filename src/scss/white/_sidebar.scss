@@ -124,6 +124,9 @@
             text-indent: 0;
             background-color: transparent;
         }
+        .btn-group{
+            display: none;
+        }
     } // End sw-sidebar active
     
     ul{
@@ -238,7 +241,7 @@
         border-right: 1px solid rgba(0, 0, 0, .1);
     }
     @include media-breakpoint-up(xl) {
-        max-width: 250px;
+        max-width: 270px;
     }
 }
 
