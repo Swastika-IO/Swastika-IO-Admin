@@ -65,10 +65,15 @@
                 padding-top: 5px;
               }
             }
+            .hide-on-sb-inactive{
+                display: none;
+            }
             .sw-toc-link {
                 // display: initial;
-                padding-top: 10px;
-                padding-bottom: 10px;
+                
+                padding: .5rem .5rem;
+                // padding-top: 10px;
+                // padding-bottom: 10px;
                 text-align: center;
                 font-size: 0.85em;
                 text-indent: -9999px;
@@ -134,6 +139,7 @@
         margin: 0;
         padding: 0;
     }
+
     .btn-group{
         float: right; 
         margin-right: 10px;
@@ -165,8 +171,15 @@
         //         display: block;
         //     }
         // }
-
-        ul li a {
+            
+        ul li a{
+            padding: .175rem 2rem;
+            font-size: 80%;
+            .oi{
+                font-size: 85%;
+            }
+        }
+        li a {
             display: block;
             padding: .25rem 1.5rem;
             font-size: 90%;
@@ -174,21 +187,35 @@
             border-left: 4px solid transparent;
             padding-left: 2rem;
             .oi{
-              margin-right: 5px;
+                margin-right: 5px;
             }
+            .btn-group{
+                margin-right: 0;
+                .oi{
+                    color: #99979c !important;
+                }
+                .oi:hover{
+                    color: #2196f3 !important;
+                }
+            }
+            
         }
-        ul li a:hover {
+        
+        li a:hover {
             color: $link-hover-color;
             text-decoration: none;
             //background-color: rgba(0, 0, 0, 0.25);
         }
-        ul .active a,
-        ul .active:hover a {
+        .active a,
+        .active:hover a {
             font-weight: 500;
             color: $link-hover-color;
             //background-color: transparent;
             border-left-color: $color;
         }
+        
+            
+        
         .sw-toc-link {
             font-size: 1em;
             display: block;
