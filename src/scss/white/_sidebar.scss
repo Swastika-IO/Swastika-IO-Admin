@@ -49,6 +49,7 @@
     padding-left: 15px;
     width: calc(100vw - 4rem);
     transition: all 0.3s;
+    
     &.active { // Active
         min-width: 70px;
         max-width: 70px;
@@ -141,6 +142,7 @@
     }
 
     .btn-group{
+        opacity: 0.3;
         float: right; 
         margin-right: 10px;
         .btn{
@@ -152,6 +154,9 @@
                 color: #2196f3 !important;
             }
         }
+    }
+    .btn-group:hover{
+        opacity: 1;
     }
     .sw-toc-item {
         
