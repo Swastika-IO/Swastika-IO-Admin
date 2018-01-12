@@ -112,204 +112,412 @@
         </form>
 
 
-        <nav class="collapse sw-links" id="sw-docs-nav" data-children=".sw-toc-item">
-          <ul>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" href="#">
-                <span class="oi oi-dashboard"></span>
-                <span class="text">Dashboard</span>
-              </a>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseArticleSubMenus" aria-expanded="false"
-                aria-controls="collapseArticleSubMenus">
-                <span class="oi oi-document"></span>
-                <span class="text">Articles</span>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-light"><span class="oi oi-plus"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-list"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-clipboard"></span></button>
-                </div>
-                
-              </a>
-              <ul id="collapseArticleSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-plus"></span>
-                    <span class="text">Create Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-list"></span>
-                    <span class="text">List Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-clipboard"></span>
-                    <span class="text">Draft</span>
-                  </a>
-                </li>
-                
-                <li class="hide-on-sb-inactive">
-                  <a href="#">
-                    <span class="oi oi-document"></span>
-                    <span class="text">Article...</span>                    
-                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-link"><span class="oi oi-plus"></span></button>
-                      <button type="button" class="btn btn-link"><span class="oi oi-list"></span></button>
-                      <button type="button" class="btn btn-link"><span class="oi oi-pencil"></span></button>
+        <ul class="collapse sw-links" id="sw-docs-nav" data-children=".sw-toc-item">
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" href="#">
+              <span class="oi oi-dashboard"></span>
+              <span class="text">Dashboard</span>
+            </a>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseArticleSubMenus" role="button" aria-expanded="false"
+              aria-controls="collapseArticleSubMenus">
+              <span class="oi oi-document"></span>
+              <span class="text">Articles</span>
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-plus"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-list"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-clipboard"></span>
+                </button>
+              </div>
+
+            </a>
+            <ul id="collapseArticleSubMenus" class="collapse list-unstyled" role="tabpanel">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-clipboard"></span>
+                  <span class="text">Draft</span>
+                </a>
+              </li>
+
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-copywriting"></span>
+                  <span class="text">Article...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
                   </div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapsePageSubMenus" aria-expanded="false"
-                aria-controls="collapsePageSubMenus">
-                <span class="oi oi-browser"></span>
-                <span class="text">Pages</span>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-light"><span class="oi oi-plus"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-list"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-clipboard"></span></button>
-                </div>
-              </a>
-              <ul id="collapsePageSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-plus"></span>
-                    <span class="text">Create Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-list"></span>
-                    <span class="text">List Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-pencil"></span>
-                    <span class="text">Draft</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseModuleSubMenus" aria-expanded="false"
-                aria-controls="collapseModuleSubMenus">
-                <span class="oi oi-puzzle-piece"></span>
-                <span class="text">Modules</span>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-light"><span class="oi oi-plus"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-list"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-clipboard"></span></button>
-                </div>
-              </a>
-              <ul id="collapseModuleSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-plus"></span>
-                    <span class="text">Create Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-list"></span>
-                    <span class="text">List Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-pencil"></span>
-                    <span class="text">Draft</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseAppearanceSubMenus" aria-expanded="false"
-                aria-controls="collapseAppearanceSubMenus">
-                <span class="oi oi-brush"></span>
-                <span class="text">Themes</span>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-light"><span class="oi oi-plus"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-list"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-clipboard"></span></button>
-                </div>
-              </a>
-              <ul id="collapseAppearanceSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-plus"></span>
-                    <span class="text">Create Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-list"></span>
-                    <span class="text">List Article</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-pencil"></span>
-                    <span class="text">Draft</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseFileSubMenus" aria-expanded="false"
-                aria-controls="collapseFileSubMenus">
-                <span class="oi oi-image"></span>
-                <span class="text">Medias</span>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-light"><span class="oi oi-plus"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-list"></span></button>
-                    <button type="button" class="btn btn-light"><span class="oi oi-clipboard"></span></button>
-                </div>
-              </a>
-              <ul id="collapseFileSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-image"></span>
-                    <span class="text">Medias</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-file"></span>
-                    <span class="text">Files</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sw-toc-item">
-              <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseSettingSubMenus" aria-expanded="false"
-                aria-controls="collapseSettingSubMenus">
-                <span class="oi oi-wrench"></span>
-                <span class="text">Settings</span>
-              </a>
-              <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
-                <li class="active sw-sidenav-active">
-                  <a href="#">
-                    <span class="oi oi-list"></span>
-                    <span class="text">Configurations</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="oi oi-globe"></span>
-                    <span class="text">Cultures</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-copywriting"></span>
+                  <span class="text">Article...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-copywriting"></span>
+                  <span class="text">Article...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-copywriting"></span>
+                  <span class="text">Article...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapsePageSubMenus" role="button" aria-expanded="false"
+              aria-controls="collapsePageSubMenus">
+              <span class="oi oi-browser"></span>
+              <span class="text">Pages</span>
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-plus"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-list"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-clipboard"></span>
+                </button>
+              </div>
+            </a>
+            <ul id="collapsePageSubMenus" class="collapse list-unstyled" role="tabpanel">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
+              </li>
+
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-fork"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-fork"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-fork"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseModuleSubMenus" aria-expanded="false"
+              aria-controls="collapseModuleSubMenus">
+              <span class="oi oi-puzzle-piece"></span>
+              <span class="text">Modules</span>
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-plus"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-list"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-clipboard"></span>
+                </button>
+              </div>
+            </a>
+            <ul id="collapseModuleSubMenus" class="collapse list-unstyled">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Article</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-puzzle-piece"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-puzzle-piece"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-puzzle-piece"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseAppearanceSubMenus" aria-expanded="false"
+              aria-controls="collapseAppearanceSubMenus">
+              <span class="oi oi-brush"></span>
+              <span class="text">Themes</span>
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-plus"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-list"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-clipboard"></span>
+                </button>
+              </div>
+            </a>
+            <ul id="collapseAppearanceSubMenus" class="collapse list-unstyled">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-plus"></span>
+                  <span class="text">Create Theme</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">List Theme</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-pencil"></span>
+                  <span class="text">Draft</span>
+                </a>
+              </li>
+
+              <li class="hide-on-sb-inactive">
+                <a href="#">
+                  <span class="oi oi-layers"></span>
+                  <span class="text">About us...</span>
+                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-plus"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-list"></span>
+                    </button>
+                    <button type="button" class="btn btn-link">
+                      <span class="oi oi-pencil"></span>
+                    </button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseFileSubMenus" aria-expanded="false"
+              aria-controls="collapseFileSubMenus">
+              <span class="oi oi-image"></span>
+              <span class="text">Medias</span>
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-plus"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-list"></span>
+                </button>
+                <button type="button" class="btn btn-light">
+                  <span class="oi oi-clipboard"></span>
+                </button>
+              </div>
+            </a>
+            <ul id="collapseFileSubMenus" class="collapse list-unstyled">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-image"></span>
+                  <span class="text">Medias</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-file"></span>
+                  <span class="text">Files</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item">
+            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseSettingSubMenus" aria-expanded="false"
+              aria-controls="collapseSettingSubMenus">
+              <span class="oi oi-wrench"></span>
+              <span class="text">Settings</span>
+            </a>
+            <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
+              <li class="active sw-sidenav-active">
+                <a href="#">
+                  <span class="oi oi-list"></span>
+                  <span class="text">Configurations</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="oi oi-globe"></span>
+                  <span class="text">Cultures</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sw-toc-item"></li>
+          <li class="sw-toc-item"></li>
+        </ul>
       </div>
 
       <main class="py-md-3 px-md-4 sw-content" role="main">
