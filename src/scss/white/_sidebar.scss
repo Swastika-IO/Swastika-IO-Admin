@@ -112,8 +112,8 @@
         .sw-search {
             display: none !important;
         }
-        a[aria-expanded="false"]::before,
-        a[aria-expanded="true"]::before {
+        .sw-toc-link[aria-expanded="false"]::before,
+        .sw-toc-link[aria-expanded="true"]::before {
             top: auto;
             bottom: 5px;
             right: 50%;
@@ -162,6 +162,7 @@
     }
     .sw-toc-item {
         
+        cursor: pointer;
         list-style: none;
         // &.active {
         //     margin-bottom: 1rem;
@@ -178,15 +179,14 @@
         //         display: block;
         //     }
         // }
-            
-        ul li a{
+        ul li .sw-toc-sub-link{
             padding: .175rem 2rem;
             font-size: 80%;
             .oi{
                 font-size: 85%;
             }
         }
-        li a {
+        li .sw-toc-sub-link{
             display: block;
             padding: .25rem 1.5rem;
             font-size: 90%;
@@ -197,9 +197,10 @@
                 margin-right: 5px;
             }
             .btn-group{
-                margin-right: 0;
+                margin-right: -10px;
                 .oi{
                     color: #99979c !important;
+                    margin-right: 0;
                 }
                 .oi:hover{
                     color: #2196f3 !important;
@@ -245,15 +246,15 @@
         }
     }
     ul li.active>a,
-    a[aria-expanded="true"] {
+    .sw-toc-link[aria-expanded="true"] {
         //color: #fff;
         /* background: #209e91; */
     }
-    a[data-toggle="collapse"] {
+    .sw-toc-link[data-toggle="collapse"] {
         position: relative;
     }
-    a[aria-expanded="false"]::before,
-    a[aria-expanded="true"]::before {
+    .sw-toc-link[aria-expanded="false"]::before,
+    .sw-toc-link[aria-expanded="true"]::before {
         content: '\e036';
         display: block;
         position: absolute;
@@ -262,7 +263,7 @@
         font-size: 0.6em;
         margin-top: 0.3rem;
     }
-    a[aria-expanded="true"]::before {
+    .sw-toc-link[aria-expanded="true"]::before {
         content: '\e034';
     }
     @include media-breakpoint-up(md) {

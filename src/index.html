@@ -120,23 +120,24 @@
             </a>
           </li>
           <li class="sw-toc-item">
-            <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseArticleSubMenus" role="button" aria-expanded="false"
-              aria-controls="collapseArticleSubMenus">
-              <span class="oi oi-document"></span>
-              <span class="text">Articles</span>
-              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-light">
-                  <span class="oi oi-plus"></span>
-                </button>
-                <button type="button" class="btn btn-light">
-                  <span class="oi oi-list"></span>
-                </button>
-                <button type="button" class="btn btn-light">
-                  <span class="oi oi-clipboard"></span>
-                </button>
+              <div class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseArticleSubMenus" role="button" aria-expanded="false"
+                aria-controls="collapseArticleSubMenus">
+                <span class="oi oi-document"></span>
+                <span class="text">Articles</span>
+
+                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                    <a asp-area="Portal" asp-controller="Articles" asp-action="Create" class="btn btn-light">
+                            <span class="oi oi-plus"></span>
+                    </a>
+                    <a asp-area="Portal" asp-controller="Articles" asp-action="Index" class="btn btn-light">
+                            <span class="oi oi-list"></span>
+                    </a>
+                    <a asp-area="Portal" asp-controller="Articles" asp-action="Draft" class="btn btn-light">
+                            <span class="oi oi-clipboard"></span>
+                    </a>
+                </div>
               </div>
 
-            </a>
             <ul id="collapseArticleSubMenus" class="collapse list-unstyled" role="tabpanel">
               <li class="active sw-sidenav-active">
                 <a href="#">
@@ -265,24 +266,24 @@
               </li>
 
               <li class="hide-on-sb-inactive">
-                <a href="#">
+                <div class="sw-toc-sub-link">
                   <span class="oi oi-fork"></span>
                   <span class="text">About us...</span>
                   <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-link">
+                    <a class="btn btn-link">
                       <span class="oi oi-plus"></span>
-                    </button>
-                    <button type="button" class="btn btn-link">
+                    </a>
+                    <a class="btn btn-link">
                       <span class="oi oi-list"></span>
-                    </button>
-                    <button type="button" class="btn btn-link">
+                    </a>
+                    <a class="btn btn-link">
                       <span class="oi oi-pencil"></span>
-                    </button>
+                    </a>
                   </div>
-                </a>
+                </div>
               </li>
               <li class="hide-on-sb-inactive">
-                <a href="#">
+                <a class="sw-toc-sub-link" href="#">
                   <span class="oi oi-fork"></span>
                   <span class="text">About us...</span>
                   <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
