@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="./css/portal.white.min.css">
   <link href="./font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+  <link href="./libs/micon/css/micon.min.css" rel="stylesheet">
 
   <style>
   </style>
@@ -115,19 +116,19 @@
         <ul class="collapse sw-links" id="sw-docs-nav" data-children=".sw-toc-item">
           <li class="sw-toc-item">
             <a class="sw-toc-link" href="#">
-              <span class="oi oi-dashboard"></span>
+              <i class="mi mi-SpeedHigh mi-lg"></i>
               <span class="text">Dashboard</span>
             </a>
           </li>
           <li class="sw-toc-item">
               <div class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseArticleSubMenus" role="button" aria-expanded="false"
                 aria-controls="collapseArticleSubMenus">
-                <span class="oi oi-document"></span>
+                <i class="mi mi-ReadingList mi-lg"></i>
                 <span class="text">Articles</span>
 
                 <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                     <a asp-area="Portal" asp-controller="Articles" asp-action="Create" class="btn btn-light">
-                            <span class="oi oi-plus"></span>
+                      <i class="mi mi-AddTo"></i>
                     </a>
                     <a asp-area="Portal" asp-controller="Articles" asp-action="Index" class="btn btn-light">
                             <span class="oi oi-list"></span>
@@ -139,9 +140,9 @@
               </div>
 
             <ul id="collapseArticleSubMenus" class="collapse list-unstyled" role="tabpanel">
-              <li class="active sw-sidenav-active">
+              <li class="active sw-sidenav-active sw-toc-sub-link">
                 <a href="#">
-                  <span class="oi oi-plus"></span>
+                  <i class="mi mi-AddTo"></i>
                   <span class="text">Create Article</span>
                 </a>
               </li>
@@ -231,7 +232,7 @@
           <li class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapsePageSubMenus" role="button" aria-expanded="false"
               aria-controls="collapsePageSubMenus">
-              <span class="oi oi-browser"></span>
+              <i class="mi mi-Page mi-lg"></i>
               <span class="text">Pages</span>
               <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-light">
@@ -321,7 +322,7 @@
           <li class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseModuleSubMenus" aria-expanded="false"
               aria-controls="collapseModuleSubMenus">
-              <span class="oi oi-puzzle-piece"></span>
+              <i class="mi mi-AdjustHologram mi-lg"></i>
               <span class="text">Modules</span>
               <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-light">
@@ -410,7 +411,7 @@
           <li class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseAppearanceSubMenus" aria-expanded="false"
               aria-controls="collapseAppearanceSubMenus">
-              <span class="oi oi-brush"></span>
+              <i class="mi mi-Color mi-lg"></i>
               <span class="text">Themes</span>
               <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-light">
@@ -466,7 +467,7 @@
           <li class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseFileSubMenus" aria-expanded="false"
               aria-controls="collapseFileSubMenus">
-              <span class="oi oi-image"></span>
+              <i class="mi mi-Photo2 mi-lg"></i>
               <span class="text">Medias</span>
               <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-light">
@@ -498,7 +499,7 @@
           <li class="sw-toc-item">
             <a class="sw-toc-link" data-toggle="collapse" data-parent="#sw-docs-nav" href="#collapseSettingSubMenus" aria-expanded="false"
               aria-controls="collapseSettingSubMenus">
-              <span class="oi oi-wrench"></span>
+              <i class="mi mi-Settings mi-lg mi-spin"></i>
               <span class="text">Settings</span>
             </a>
             <ul id="collapseSettingSubMenus" class="collapse list-unstyled">
