@@ -35,6 +35,12 @@
         z-index: 1071; // over everything in bootstrap
       }
     }
+
+    .navbar-brand{
+      img{
+        animation: mi-spin 30s infinite linear;
+      }
+    }
   
     .navbar-nav {
       .nav-link {
