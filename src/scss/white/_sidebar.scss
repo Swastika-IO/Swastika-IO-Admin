@@ -189,9 +189,9 @@
         ul li .sw-toc-sub-link{
             padding: .175rem 2rem;
             // font-size: 80%;
-            .oi{
-                font-size: 85%;
-            }
+            // .oi{
+            //     font-size: 85%;
+            // }
         }
         li .sw-toc-sub-link{
             display: block;
@@ -235,6 +235,7 @@
             font-size: 1em;
             display: block;
             padding: .5rem 1.5rem;
+            padding-right: 0;
             font-weight: 500;
             color: $color;
             span:first-child {
