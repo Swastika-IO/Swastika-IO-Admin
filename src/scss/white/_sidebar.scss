@@ -144,7 +144,7 @@
     }
 
     .btn-group{
-        opacity: 0.8;
+        opacity: 0;
         float: right; 
         margin-right: 10px;
         .btn{
@@ -206,11 +206,30 @@
             .btn-group{
                 margin-right: -10px;
                 .oi{
-                    color: #99979c !important;
+                    color: #4e4e4e !important;
                     margin-right: 0;
                 }
-                .oi:hover{
-                    color: #2196f3 !important;
+                .btn:hover {
+                    .oi{
+                        color: #2196f3 !important;
+                    }
+                }
+            }
+
+            &:hover {
+                // color: #fff;
+                // text-decoration: none;
+                // background-color: #2196f3;
+                // //color: #fff;
+                // span:first-child {
+                //     color: #fff; 
+                // }
+                // .mi{
+                //     color: #fff;
+                // }
+                
+                .btn-group{
+                    opacity: 1;
                 }
             }
             
@@ -252,6 +271,10 @@
                 }
                 .mi{
                     color: #fff;
+                }
+                
+                .btn-group{
+                    opacity: 1;
                 }
             }
             .mi{
