@@ -145,8 +145,15 @@
 
     .btn-group{
         opacity: 0;
-        float: right; 
-        margin-right: 10px;
+        // float: right; 
+        // margin-right: 10px;
+        position: absolute;
+        right: 0;
+        padding: 8px 0;
+        margin-right: -2px;
+
+
+        transition: all 0.1s;
         .btn{
             padding: .25rem .35rem;
             font-size: .575rem;
@@ -159,6 +166,18 @@
     }
     .btn-group:hover{
         opacity: 1;
+        padding: 0;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(219,219,219,1);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(219,219,219,1);
+        box-shadow: 0px 0px 10px 1px rgba(219,219,219,1);
+        margin-right: -5px;
+        .btn{
+            font-size: 1rem;
+            padding: .45rem 0.85rem;
+        }
     }
     .sw-toc-item {
         
@@ -204,7 +223,8 @@
                 margin-right: 5px;
             }
             .btn-group{
-                margin-right: -10px;
+                //margin-right: -10px;
+                margin-top: -8px;
                 .oi{
                     color: #4e4e4e !important;
                     margin-right: 0;
@@ -216,8 +236,9 @@
                 }
             }
 
+            
             &:hover {
-                // color: #fff;
+                color: #2196f3;
                 // text-decoration: none;
                 // background-color: #2196f3;
                 // //color: #fff;
@@ -248,7 +269,22 @@
             border-left-color: $color;
         }
         
+        &:hover {
+            // color: #fff;
+            // text-decoration: none;
+            // background-color: #2196f3;
+            // //color: #fff;
+            // span:first-child {
+            //     color: #fff; 
+            // }
+            // .mi{
+            //     color: #fff;
+            // }
             
+            .btn-group:first-child{
+                opacity: 1;
+            }
+        }
         
         .sw-toc-link {
             font-size: 1em;
