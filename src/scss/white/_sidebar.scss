@@ -83,7 +83,9 @@
                 // padding-bottom: 10px;
                 text-align: center;
                 font-size: 0.85em;
-                text-indent: -9999px;
+                .text{
+                    text-indent: -9999px;
+                }
                 span:first-child {
                     padding-right: 0;
                 }
@@ -111,6 +113,10 @@
                     color: #0c83e2 !important;
                     span:first-child {
                         color: #0c83e2;
+                    }
+                    .mi{
+                        color: #2196f3;
+                        font-size: 2em;
                     }
                 }
             }
