@@ -350,22 +350,22 @@
     //     //color: #fff;
     //     /* background: #209e91; */
     // }
-    .sw-toc-link[data-toggle="collapse"] {
-        position: relative;
-    }
-    .sw-toc-link[aria-expanded="false"]::before,
-    .sw-toc-link[aria-expanded="true"]::before {
-        content: '\e036';
-        display: block;
-        position: absolute;
-        right: 20px;
-        font-family: 'Icons';
-        font-size: 0.6em;
-        margin-top: 0.3rem;
-    }
-    .sw-toc-link[aria-expanded="true"]::before {
-        content: '\e034';
-    }
+    // .sw-toc-link[data-toggle="collapse"] {
+    //     position: relative;
+    // }
+    // .sw-toc-link[aria-expanded="false"]::before,
+    // .sw-toc-link[aria-expanded="true"]::before {
+    //     content: '\e036';
+    //     display: block;
+    //     position: absolute;
+    //     right: 20px;
+    //     font-family: 'Icons';
+    //     font-size: 0.6em;
+    //     margin-top: 0.3rem;
+    // }
+    // .sw-toc-link[aria-expanded="true"]::before {
+    //     content: '\e034';
+    // }
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
             position: sticky;
