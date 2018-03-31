@@ -1,0 +1,43 @@
+// Your variable overrides
+$body-bg: #f9fafb;
+//$body-color: rgb(230, 230, 230);
+$color:#72777a;
+$link-color:#72777a;
+$link-hover-color:#313435;
+
+// form
+$input-focus-color:#fff;
+$input-placeholder-color:rgb(199, 199, 199);
+
+$card-cap-bg:#fff;
+$card-bg:rgba(255, 255, 255, 0.5);
+$card-border-color:rgba(177, 177, 177, 0.125);;
+$text-muted:rgb(5, 5, 5);
+
+$navbar-dark-color: $color;
+$navbar-dark-hover-color: #313435;
+$navbar-dark-disabled-color:#8a8a8a;
+$navbar-dark-active-color:#2196f3;
+
+$theme-colors: (
+    "primary": #2196f3,
+    "danger": #ff4136
+  );
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+@import "variables";
+@import "reboot";
+@import "nav";
+@import "_navbar";
+@import "sidebar";
+@import "card";
+@import "breadcrumb";
+@import "text";
+@import "nav-action";
+@import "buttons";
+@import "form";
