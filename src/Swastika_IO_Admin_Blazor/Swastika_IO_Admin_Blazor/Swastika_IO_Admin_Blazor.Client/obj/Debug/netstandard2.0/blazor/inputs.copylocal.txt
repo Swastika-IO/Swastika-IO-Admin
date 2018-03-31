@@ -1,0 +1,5 @@
+C:\Users\smile\.nuget\packages\microsoft.aspnetcore.blazor\0.1.0\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\Users\smile\.nuget\packages\microsoft.aspnetcore.blazor.browser\0.1.0\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\bin\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.dll

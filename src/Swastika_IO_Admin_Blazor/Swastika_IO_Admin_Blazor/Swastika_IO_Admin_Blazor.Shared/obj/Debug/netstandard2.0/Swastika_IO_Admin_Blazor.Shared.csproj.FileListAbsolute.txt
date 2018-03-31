@@ -1,0 +1,8 @@
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\bin\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.deps.json
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\bin\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.dll
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\bin\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.pdb
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\obj\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.csproj.CoreCompileInputs.cache
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\obj\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.AssemblyInfoInputs.cache
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\obj\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.AssemblyInfo.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\obj\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.dll
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor\Swastika_IO_Admin_Blazor.Shared\obj\Debug\netstandard2.0\Swastika_IO_Admin_Blazor.Shared.pdb
