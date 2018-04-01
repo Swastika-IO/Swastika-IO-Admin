@@ -4,7 +4,11 @@
 ## Demo:  
 [https://swastika-io.github.io/Swastika-IO-Admin](https://swastika-io.github.io/Swastika-IO-Admin/)  
 ## Screenshot:  
-![Swastika I/O Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/screen.png "Swastika I/O Admin Portal Bootstrap 4")[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Admin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Admin?ref=badge_shield)
+![Swastika I/O Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/screen.png "Swastika I/O Admin Portal Bootstrap 4")
+
+![Swastika I/O Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/white.png "Swastika I/O Admin Portal Bootstrap 4")
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Admin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Admin?ref=badge_shield)
 
 
 
