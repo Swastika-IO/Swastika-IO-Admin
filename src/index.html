@@ -12,7 +12,7 @@
 
 
   <link rel="stylesheet" href="./css/portal.white.min.css">
-  <link href="./font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link href="./libs/micon/css/micon.min.css" rel="stylesheet">
 
   <style>
@@ -88,15 +88,15 @@
             <!-- Sidebar Holder -->
 
             <div id="sidebar" class="sw-sidebar">
-                <form method="post" class="sw-search d-flex align-items-center" action="/vi-vn/portal/search">
-                    <input type="search" class="form-control" id="search-input" name="keyword" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+                <form method="post" class="sw-search d-flex align-items-center ng-pristine ng-valid" action="/admin/search">
+                    <input type="search" class="form-control" id="search-input" name="keyword" placeholder="Search for..." aria-label="Search for..." autocomplete="off">
                     <button class="btn btn-light sw-search-docs-toggle d-md-none p-0 ml-3" type="submit" data-toggle="collapse" data-target="#sw-docs-nav" aria-controls="sw-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
                             <title>Menu</title>
                             <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
                         </svg>
                     </button>
-                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8F52z55vngJLih5VSOPxTRPFUpp71A577HCqaUVl4uToXiceDsU2H4vO5uFikWsLIp8NWnBBVgBeHSmJmbrtfkG6Eq64GLldfNZl7s0J6SVqFAFMvUN8EGwplPhSXe7heMfgpwigDrr9g7fksXwAsu12w4PJRiZ_aee3lITz0Vaupd0IJVzDR1VBg3FsC5A2cg"></form>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KOuD896zE9FpXyo3z4qUnITyqLJObd-8sWCHWBMAbgKpoBDjCxTTaK-fn9pkbeyWi6aiOu15-1O4FCi0iYHV22A7_C_8nl1bjT9gWUpGWTRcxiso71cJhqbhcBxhsub88XHpqp3OAmg51CAe1EdWDBDA9MJ-Ei82UcnxV3Pa_P6peDY3ZqTytpkWhQlw7N7hA" autocomplete="off"></form>
             
                 <ul class="sw-links" id="sw-docs-nav" data-children=".sw-toc-item">
                     <!-- DASHBOARD -->
@@ -112,16 +112,16 @@
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                 <a class="btn btn-light" href="/vi-vn/portal/articles/create">
-                                    <span class="oi oi-plus"></span>
+                                    <span class="fas fa-plus"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/articles/index">
-                                    <span class="oi oi-list"></span>
+                                    <span class="fas fa-bars"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/articles/draft">
-                                    <span class="oi oi-clipboard"></span>
+                                    <span class="fas fa-clipboard"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseArticleSubMenus" role="button" aria-expanded="false" aria-controls="collapseArticleSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
@@ -132,19 +132,19 @@
                         <ul id="collapseArticleSubMenus" class="collapse list-unstyled" role="tabpanel" data-parent="#sw-docs-nav">
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/articles/create">
-                                    <i class="mi mi-Add  mi-fw"></i>
+                                    <i class="fas fa-plus  mi-fw"></i>
                                     <span class="text">Create Article</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/articles/index">
-                                    <i class="mi mi-List mi-fw"></i>
+                                    <i class="fas fa-bars mi-fw"></i>
                                     <span class="text">List Article</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/articles/draft">
-                                    <i class="mi mi-Paste mi-fw"></i>
+                                    <i class="fas fa-clipboard"></i>
                                     <span class="text">Draft</span>
                                 </a>
                             </li>
@@ -156,13 +156,13 @@
                                     <div class="inner">
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                             <a class="btn btn-light">
-                                                <span class="oi oi-plus"></span>
+                                                <span class="fas fa-plus"></span>
                                             </a>
                                             <a class="btn btn-light">
-                                                <span class="oi oi-list"></span>
+                                                <span class="fas fa-bars"></span>
                                             </a>
                                             <a class="btn btn-light">
-                                                <span class="oi oi-pencil"></span>
+                                                <span class="fas fa-pencil-alt"></span>
                                             </a>
                                         </div>
                                     </div>
@@ -177,39 +177,39 @@
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                 <a class="btn btn-light" href="/vi-vn/portal/product/create">
-                                    <span class="oi oi-plus"></span>
+                                    <span class="fas fa-plus"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/product/index">
-                                    <span class="oi oi-list"></span>
+                                    <span class="fas fa-bars"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/product/draft">
-                                    <span class="oi oi-clipboard"></span>
+                                    <span class="fas fa-clipboard"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseProductSubMenus" role="button" aria-expanded="false" aria-controls="collapseProductSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Package mi-lg mi-fw" data-toggle="collapse" data-target="#collapseProductSubMenus" role="button" aria-expanded="false" aria-controls="collapseProductSubMenus"></i>
-                            <span class="text">Product</span>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseProductSubMenus" role="button" aria-expanded="false" aria-controls="collapseProductSubMenus">
+                            <i class="mi mi-Package mi-lg mi-fw"></i>
+                            <span class="text">Products</span>
                         </div>
                         <ul id="collapseProductSubMenus" class="collapse list-unstyled" role="tabpanel" data-parent="#sw-docs-nav">
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/product/create">
-                                    <i class="mi mi-Add mi-fw"></i>
+                                    <i class="fas fa-plus mi-fw"></i>
                                     <span class="text">Create Product</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/product/index">
-                                    <i class="mi mi-List mi-fw"></i>
+                                    <i class="fas fa-bars mi-fw"></i>
                                     <span class="text">List Product</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/product/draft">
-                                    <i class="mi mi-Paste mi-fw"></i>
+                                    <i class="fas fa-clipboard"></i>
                                     <span class="text">Draft</span>
                                 </a>
                             </li>
@@ -222,13 +222,13 @@
                                     <div class="inner">
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                             <a class="btn btn-light">
-                                                <span class="oi oi-plus"></span>
+                                                <span class="fas fa-plus"></span>
                                             </a>
                                             <a class="btn btn-light">
-                                                <span class="oi oi-list"></span>
+                                                <span class="fas fa-bars"></span>
                                             </a>
                                             <a class="btn btn-light">
-                                                <span class="oi oi-pencil"></span>
+                                                <span class="fas fa-pencil-alt"></span>
                                             </a>
                                         </div>
                                     </div>
@@ -243,39 +243,39 @@
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                 <a class="btn btn-light" href="/vi-vn/portal/pages/create">
-                                    <span class="oi oi-plus"></span>
+                                    <span class="fas fa-plus"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/pages">
-                                    <span class="oi oi-list"></span>
+                                    <span class="fas fa-bars"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/pages">
-                                    <span class="oi oi-clipboard"></span>
+                                    <span class="fas fa-clipboard"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapsePageSubMenus" role="button" aria-expanded="false" aria-controls="collapsePageSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Page mi-lg mi-fw" data-toggle="collapse" data-target="#collapsePageSubMenus" role="button" aria-expanded="false" aria-controls="collapsePageSubMenus"></i>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapsePageSubMenus" role="button" aria-expanded="false" aria-controls="collapsePageSubMenus">
+                            <i class="mi mi-Page mi-lg mi-fw"></i>
                             <span class="text">Pages</span>
                         </div>
                         <ul id="collapsePageSubMenus" class="collapse list-unstyled" role="tabpanel" data-parent="#sw-docs-nav">
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/pages/create">
-                                    <i class="mi mi-Add  mi-fw"></i>
+                                    <i class="fas fa-plus  mi-fw"></i>
                                     <span class="text">Create Page</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/pages">
-                                    <i class="mi mi-List mi-fw"></i>
+                                    <i class="fas fa-bars mi-fw"></i>
                                     <span class="text">List Article</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/pages">
-                                    <i class="mi mi-Paste mi-fw"></i>
+                                    <i class="fas fa-clipboard"></i>
                                     <span class="text">Draft</span>
                                 </a>
                             </li>
@@ -286,85 +286,8 @@
                                         <span class="text">Home</span>
                                         <div class="inner">
                                                 <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/1/home">
-                                                        <span class="oi oi-pencil"></span>
-                                                    </a>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Pages" asp-action="AddData,EditData,Contents,Edit" asp-route-id="2">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Page mi-fw"></i>
-                                        <span class="text">test</span>
-                                        <div class="inner">
-                                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/2/about-us">
-                                                        <span class="oi oi-pencil"></span>
-                                                    </a>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Pages" asp-action="AddData,EditData,Contents,Edit" asp-route-id="3">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Page mi-fw"></i>
-                                        <span class="text">Sections</span>
-                                        <div class="inner">
-                                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/3/sections">
-                                                        <span class="oi oi-pencil"></span>
-                                                    </a>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Pages" asp-action="AddData,EditData,Contents,Edit" asp-route-id="4">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Page mi-fw"></i>
-                                        <span class="text">Examples</span>
-                                        <div class="inner">
-                                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/articles/create/4">
-                                                        <span class="oi oi-plus"></span>
-                                                    </a>
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/contents/4/examples">
-                                                        <span class="oi oi-list"></span>
-                                                    </a>
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/4/examples">
-                                                        <span class="oi oi-pencil"></span>
-                                                    </a>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Pages" asp-action="AddData,EditData,Contents,Edit" asp-route-id="5">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Page mi-fw"></i>
-                                        <span class="text">Blog</span>
-                                        <div class="inner">
-                                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/articles/create/5">
-                                                        <span class="oi oi-plus"></span>
-                                                    </a>
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/contents/5/blog">
-                                                        <span class="oi oi-list"></span>
-                                                    </a>
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/5/blog">
-                                                        <span class="oi oi-pencil"></span>
-                                                    </a>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Pages" asp-action="AddData,EditData,Contents,Edit" asp-route-id="6">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Page mi-fw"></i>
-                                        <span class="text">ReactDemoPage</span>
-                                        <div class="inner">
-                                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/6/reactdemopage">
-                                                        <span class="oi oi-pencil"></span>
+                                                    <a class="btn btn-light" href="/vi-vn/portal/pages/edit/1/home_2_1_1_1">
+                                                        <span class="fas fa-pencil-alt"></span>
                                                     </a>
                                                 </div>
                                         </div>
@@ -372,6 +295,8 @@
                                 </li>
                         </ul>
                     </li>
+            
+                    <!-- Favorite MODULES -->
             
                     <!-- MODULE -->
                     <li class="sw-toc-item mt-1 mb-1" is-active-menu="" asp-controllers="Module">
@@ -379,224 +304,46 @@
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                 <a is-active-route="" class="btn btn-light" href="/vi-vn/portal/module/create">
-                                    <span class="oi oi-plus"></span>
+                                    <span class="fas fa-plus"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/module/index">
-                                    <span class="oi oi-list"></span>
+                                    <span class="fas fa-bars"></span>
                                 </a>
                                 <a class="btn btn-light">
-                                    <span class="oi oi-clipboard"></span>
+                                    <span class="fas fa-clipboard"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseModuleSubMenus" aria-expanded="false" aria-controls="collapseModuleSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-AdjustHologram mi-lg mi-fw mi-pulse" data-toggle="collapse" data-target="#collapseModuleSubMenus" aria-expanded="false" aria-controls="collapseModuleSubMenus"></i>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseModuleSubMenus" aria-expanded="false" aria-controls="collapseModuleSubMenus">
+                            <i class="mi mi-ResolutionLegacy mi-lg mi-fw"></i>
                             <span class="text">Modules</span>
                         </div>
                         <ul id="collapseModuleSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
                             <li>
                                 <a is-active-route="" class="sw-toc-sub-link mb-1" href="/vi-vn/portal/module/create">
-                                    <i class="mi mi-Add  mi-fw"></i>
+                                    <i class="fas fa-plus  mi-fw"></i>
                                     <span class="text">Create Module</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/module/index">
-                                    <i class="mi mi-List mi-fw"></i>
+                                    <i class="fas fa-bars mi-fw"></i>
                                     <span class="text">List Module</span>
                                 </a>
                             </li>
                             <li>
                                 <a data-target="#" class="sw-toc-sub-link mb-1">
-                                    <i class="mi mi-Paste mi-fw"></i>
+                                    <i class="fas fa-clipboard"></i>
                                     <span class="text">Draft</span>
                                 </a>
                             </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Banners</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/1">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/1">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/1">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Main Navigation</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/2">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/2">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/2">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Duy Hentai </span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/3">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/3">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/3">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">What is ALPHA?</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/4">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/4">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/4">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Who we are?</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/5">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/5">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/5">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Contact Us</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/6">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/6">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/6">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">What Clients Say</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/7">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/7">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/7">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">Latest Blogposts</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/8">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/8">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/8">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Component mi-fw"></i>
-                                        <span class="text">React Native Demo</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/addmoduledata/9">
-                                                    <span class="oi oi-plus"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/details/9">
-                                                    <span class="oi oi-list"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/module/edit/9">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
                         </ul>
                     </li>
+            
+                    <!-- Widgets -->
             
                     <!-- THEME -->
                     <li class="sw-toc-item mt-1 mb-1">
@@ -604,129 +351,49 @@
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                 <a class="btn btn-light" href="/vi-vn/portal/theme/create">
-                                    <span class="oi oi-plus"></span>
+                                    <span class="fas fa-plus"></span>
                                 </a>
                                 <a class="btn btn-light" href="/vi-vn/portal/theme/index">
-                                    <span class="oi oi-list"></span>
+                                    <span class="fas fa-bars"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseAppearanceSubMenus" aria-expanded="false" aria-controls="collapseAppearanceSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Personalize mi-lg mi-fw" data-toggle="collapse" data-target="#collapseAppearanceSubMenus" aria-expanded="false" aria-controls="collapseAppearanceSubMenus"></i>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseAppearanceSubMenus" aria-expanded="false" aria-controls="collapseAppearanceSubMenus">
+                            <i class="mi mi-Personalize mi-lg mi-fw"></i>
                             <span class="text">Themes</span>
                         </div>
                         <ul id="collapseAppearanceSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/theme/create">
-                                    <i class="mi mi-Add  mi-fw"></i>
+                                    <i class="fas fa-plus  mi-fw"></i>
                                     <span class="text">Create Theme</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/theme/index">
-                                    <i class="mi mi-List mi-fw"></i>
+                                    <i class="fas fa-bars mi-fw"></i>
                                     <span class="text">List Theme</span>
                                 </a>
                             </li>
             
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="10">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Color mi-fw"></i>
-                                        <span class="text">Now-UI-Kit-PRO</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/10/layouts">
-                                                    <span class="oi oi-brush"></span>
-                                                </a>
-                                                <a href="/vi-vn/portal/file?folder=Templates%2FNow-UI-Kit-PRO" class="btn btn-light">
-                                                    <span class="oi oi-file"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/10">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="13">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Color mi-fw"></i>
-                                        <span class="text">Modus</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/13/layouts">
-                                                    <span class="oi oi-brush"></span>
-                                                </a>
-                                                <a href="/vi-vn/portal/file?folder=Templates%2FModus" class="btn btn-light">
-                                                    <span class="oi oi-file"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/13">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="14">
+                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="1">
                                     <div class="sw-toc-sub-link mb-1">
                                         <i class="mi mi-Color mi-fw"></i>
                                         <span class="text">Default</span>
             
                                         <div class="inner">
                                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/14/layouts">
-                                                    <span class="oi oi-brush"></span>
+                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/1/masters">
+                                                    <span class="fas fa-paint-brush"></span>
                                                 </a>
                                                 <a href="/vi-vn/portal/file?folder=Templates%2FDefault" class="btn btn-light">
-                                                    <span class="oi oi-file"></span>
+                                                    <span class="fas fa-file"></span>
                                                 </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/14">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="27">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Color mi-fw"></i>
-                                        <span class="text">Tyche</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/27/layouts">
-                                                    <span class="oi oi-brush"></span>
-                                                </a>
-                                                <a href="/vi-vn/portal/file?folder=Templates%2FTyche" class="btn btn-light">
-                                                    <span class="oi oi-file"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/27">
-                                                    <span class="oi oi-pencil"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="hide-on-sb-inactive" is-active-menu="" asp-controllers="Theme" asp-action="AddData,EditData,Contents,Edit" asp-route-id="28">
-                                    <div class="sw-toc-sub-link mb-1">
-                                        <i class="mi mi-Color mi-fw"></i>
-                                        <span class="text">Biotic</span>
-            
-                                        <div class="inner">
-                                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                                <a class="btn btn-light" href="/vi-vn/portal/template/index/28/layouts">
-                                                    <span class="oi oi-brush"></span>
-                                                </a>
-                                                <a href="/vi-vn/portal/file?folder=Templates%2FBiotic" class="btn btn-light">
-                                                    <span class="oi oi-file"></span>
-                                                </a>
-                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/28">
-                                                    <span class="oi oi-pencil"></span>
+                                                <a class="btn btn-light" href="/vi-vn/portal/theme/edit/1">
+                                                    <span class="fas fa-pencil-alt"></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -739,26 +406,26 @@
                     <li class="sw-toc-item mt-1 mb-1">
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                <a class="btn btn-light">
-                                    <span class="oi oi-image"></span>
+                                <a class="btn btn-light" href="/vi-vn/portal/media/index">
+                                    <span class="fas fa-image"></span>
                                 </a>
-                                <a class="btn btn-light">
-                                    <span class="oi oi-file"></span>
+                                <a class="btn btn-light" href="/vi-vn/portal/file">
+                                    <span class="fas fa-file"></span>
                                 </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseFileSubMenus" aria-expanded="false" aria-controls="collapseFileSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Photo2 mi-lg mi-fw" data-toggle="collapse" data-target="#collapseFileSubMenus" aria-expanded="false" aria-controls="collapseFileSubMenus"></i>
-                            <span class="text">Medias</span>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseFileSubMenus" aria-expanded="false" aria-controls="collapseFileSubMenus">
+                            <i class="mi mi-Photo2 mi-lg mi-fw"></i>
+                            <span class="text">Media</span>
                         </div>
                         <ul id="collapseFileSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
                             <li>
-                                <a data-target="#" class="sw-toc-sub-link mb-1">
+                                <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/media/index">
                                     <i class="mi mi-Photo2 mi-fw"></i>
-                                    <span class="text">Medias</span>
+                                    <span class="text">Library</span>
                                 </a>
                             </li>
                             <li>
@@ -769,7 +436,7 @@
                             </li>
                                 <li>
                                     <a href="/vi-vn/portal/file?folder=%2FTemplates" class="sw-toc-sub-link mb-1">
-                                        <span class="oi oi-folder"></span>
+                                        <i class="mi mi-Folder"></i>
                                         <span class="text">Templates</span>
                                     </a>
                                 </li>
@@ -779,61 +446,55 @@
                     <!-- TEAM -->
                     <li class="sw-toc-item mt-1 mb-1">
             
-                        <div class="inner">
-                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                <a class="btn btn-light" href="/vi-vn/portal/team/create">
-                                    <span class="oi oi-plus"></span>
-                                </a>
-                                <a class="btn btn-light" href="/vi-vn/portal/team">
-                                    <span class="oi oi-list"></span>
-                                </a>
-                                <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseTeamSubMenus" aria-expanded="false" aria-controls="collapseTeamSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
-                                </a>
+                            <div class="inner">
+                                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                    <a class="btn btn-light" href="/vi-vn/portal/team/create">
+                                        <span class="fas fa-plus"></span>
+                                    </a>
+                                    <a class="btn btn-light" href="/vi-vn/portal/team">
+                                        <span class="fas fa-bars"></span>
+                                    </a>
+                                    <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseTeamSubMenus" aria-expanded="false" aria-controls="collapseTeamSubMenus">
+                                        <span class="fas fa-chevron-right"></span>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Contact mi-lg mi-fw" data-toggle="collapse" data-target="#collapseTeamSubMenus" aria-expanded="false" aria-controls="collapseTeamSubMenus"></i>
-                            <span class="text">Team</span>
-                        </div>
-                        <ul id="collapseTeamSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
-                            <li>
-                                <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/team/create">
-                                    <i class="mi mi-Add  mi-fw"></i>
-                                    <span class="text">Create Member</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/team">
-                                    <i class="mi mi-List mi-fw"></i>
-                                    <span class="text">List Member</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                            <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseTeamSubMenus" aria-expanded="false" aria-controls="collapseTeamSubMenus">
+                                <i class="mi mi-Contact mi-lg mi-fw"></i>
+                                <span class="text">Team</span>
+                            </div>
+                            <ul id="collapseTeamSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
+                                <li>
+                                    <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/team/create">
+                                        <i class="fas fa-plus  mi-fw"></i>
+                                        <span class="text">Create Member</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="sw-toc-sub-link mb-1" href="/vi-vn/portal/team">
+                                        <i class="fas fa-bars mi-fw"></i>
+                                        <span class="text">List Member</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
             
                     <!-- SETTING -->
                     <li class="sw-toc-item mt-1 mb-1">
             
                         <div class="inner">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                <a class="btn btn-light">
-                                    <span class="oi oi-list"></span>
-                                </a>
-                                <a class="btn btn-light">
-                                    <span class="oi oi-globe"></span>
-                                </a>
                                 <a href="#" class="btn btn-light" data-toggle="collapse" data-target="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
-                                    <span class="oi oi-chevron-right"></span>
+                                    <span class="fas fa-chevron-right"></span>
                                 </a>
                             </div>
                         </div>
-                        <div class="sw-toc-link">
-                            <i class="mi mi-Settings mi-lg mi-fw mi-spin" data-toggle="collapse" data-target="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus"></i>
+                        <div class="sw-toc-link" data-toggle="collapse" data-target="#collapseSettingSubMenus" aria-expanded="false" aria-controls="collapseSettingSubMenus">
+                            <i class="mi mi-Settings mi-lg mi-fw mi-spin"></i>
                             <span class="text">Settings</span>
                         </div>
                         <ul id="collapseSettingSubMenus" class="collapse list-unstyled" data-parent="#sw-docs-nav">
-                            <li class="">
+                            <li>
                                 <div class="sw-toc-sub-link mb-1">
                                     <i class="mi mi-Repair mi-fw"></i>
                                     <span class="text">Configurations</span>
@@ -841,10 +502,26 @@
                                     <div class="inner">
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                             <a class="btn btn-light" href="/vi-vn/portal/setting/configurations/create">
-                                                <span class="oi oi-plus"></span>
+                                                <span class="fas fa-plus"></span>
                                             </a>
                                             <a class="btn btn-light" href="/vi-vn/portal/setting/configurations">
-                                                <span class="oi oi-list"></span>
+                                                <span class="fas fa-bars"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="sw-toc-sub-link mb-1">
+                                    <i class="mi mi-TimeLanguage mi-fw"></i>
+                                    <span class="text">Languages</span>
+                                    <div class="inner">
+                                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                            <a class="btn btn-light" href="/vi-vn/portal/language/create">
+                                                <span class="fas fa-plus"></span>
+                                            </a>
+                                            <a class="btn btn-light" href="/vi-vn/portal/language/list">
+                                                <span class="fas fa-bars"></span>
                                             </a>
                                         </div>
                                     </div>
@@ -858,10 +535,10 @@
                                     <div class="inner">
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                                             <a class="btn btn-light" href="/vi-vn/portal/culture/create">
-                                                <span class="oi oi-plus"></span>
+                                                <span class="fas fa-plus"></span>
                                             </a>
                                             <a class="btn btn-light" href="/vi-vn/portal/culture/index">
-                                                <span class="oi oi-list"></span>
+                                                <span class="fas fa-bars"></span>
                                             </a>
                                         </div>
                                     </div>

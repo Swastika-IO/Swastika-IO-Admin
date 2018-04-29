@@ -67,7 +67,7 @@
               padding-left: 0px;
               padding-right: 0px;
               border: 0;
-              .oi{
+              .fas{
                 font-size: 0.8em;
                 padding-top: 5px;
               }
@@ -133,7 +133,7 @@
             -ms-transform: translateX(50%);
             transform: translateX(50%);
         }
-        .oi {
+        .fas {
             margin-right: 0;
             display: block;
             font-size: 1.5em;
@@ -178,7 +178,7 @@
         .btn{
             padding: .25rem .35rem;
             font-size: .575rem;
-            .oi{
+            .fas{
                 padding: 0 !important;
                 margin:0;
                 color: #2196f3 !important;
@@ -231,7 +231,7 @@
             padding: .175rem 2rem;
             padding-right: 0;
             // font-size: 80%;
-            // .oi{
+            // .fas{
             //     font-size: 85%;
             // }
         }
@@ -243,18 +243,18 @@
             border-left: 4px solid transparent;
             padding-left: 2rem;
             padding-right: 0;
-            .oi{
+            .fas{
                 margin-right: 5px;
             }
             .btn-group{
                 //margin-right: -10px;
                 margin-top: -30px;
-                .oi{
+                .fas{
                     color: #4e4e4e !important;
                     margin-right: 0;
                 }
                 .btn:hover {
-                    .oi{
+                    .fas{
                         color: #2196f3 !important;
                     }
                 }
@@ -345,27 +345,6 @@
             }
         }
     }
-    // ul li.active>a,
-    // .sw-toc-link[aria-expanded="true"] {
-    //     //color: #fff;
-    //     /* background: #209e91; */
-    // }
-    // .sw-toc-link[data-toggle="collapse"] {
-    //     position: relative;
-    // }
-    // .sw-toc-link[aria-expanded="false"]::before,
-    // .sw-toc-link[aria-expanded="true"]::before {
-    //     content: '\e036';
-    //     display: block;
-    //     position: absolute;
-    //     right: 20px;
-    //     font-family: 'Icons';
-    //     font-size: 0.6em;
-    //     margin-top: 0.3rem;
-    // }
-    // .sw-toc-link[aria-expanded="true"]::before {
-    //     content: '\e034';
-    // }
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
             position: sticky;
