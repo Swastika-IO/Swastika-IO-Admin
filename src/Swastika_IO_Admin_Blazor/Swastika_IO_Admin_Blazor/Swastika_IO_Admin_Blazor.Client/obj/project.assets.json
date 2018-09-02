@@ -76,7 +76,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -419,14 +419,13 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -543,7 +542,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -558,7 +557,7 @@
       "Microsoft.AspNetCore.Blazor.Browser >= 0.1.0",
       "Microsoft.AspNetCore.Blazor.Build >= 0.1.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.0-preview2-30230",
-      "NETStandard.Library >= 2.0.1",
+      "NETStandard.Library >= 2.0.3",
       "Swastika_IO_Admin_Blazor.Shared >= 1.0.0"
     ]
   },
@@ -569,11 +568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj",
+      "projectUniqueName": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj",
       "projectName": "Swastika_IO_Admin_Blazor.Client",
-      "projectPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj",
+      "projectPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj",
       "packagesPath": "C:\\Users\\smile\\.nuget\\packages\\",
-      "outputPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\obj\\",
+      "outputPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -593,8 +592,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj": {
-              "projectPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj"
+            "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj": {
+              "projectPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj"
             }
           }
         }
@@ -625,7 +624,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           }
         },

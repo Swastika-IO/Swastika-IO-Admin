@@ -23,7 +23,8 @@
 .oi:empty:before {
   width: 1em;
   text-align: center;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .oi.oi-align-center:before {
@@ -40,19 +41,16 @@
 
 .oi.oi-flip-horizontal:before {
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .oi.oi-flip-vertical:before {
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(-1, 1);
   transform: scale(1, -1);
 }
 
 .oi.oi-flip-horizontal-vertical:before {
   -webkit-transform: scale(-1, -1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, -1);
 }
 

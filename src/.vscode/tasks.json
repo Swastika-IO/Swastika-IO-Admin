@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Swastika_IO_Admin_Blazor/Swastika_IO_Admin_Blazor/Swastika_IO_Admin_Blazor.Server/Swastika_IO_Admin_Blazor.Server.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

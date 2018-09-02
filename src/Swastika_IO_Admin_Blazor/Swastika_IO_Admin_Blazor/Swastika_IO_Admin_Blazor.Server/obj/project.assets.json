@@ -6926,7 +6926,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
+      "sha512": "UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -12874,11 +12874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\Swastika_IO_Admin_Blazor.Server.csproj",
+      "projectUniqueName": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\Swastika_IO_Admin_Blazor.Server.csproj",
       "projectName": "Swastika_IO_Admin_Blazor.Server",
-      "projectPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\Swastika_IO_Admin_Blazor.Server.csproj",
+      "projectPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\Swastika_IO_Admin_Blazor.Server.csproj",
       "packagesPath": "C:\\Users\\smile\\.nuget\\packages\\",
-      "outputPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\obj\\",
+      "outputPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12898,11 +12898,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj": {
-              "projectPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj"
+            "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj": {
+              "projectPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Client\\Swastika_IO_Admin_Blazor.Client.csproj"
             },
-            "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj": {
-              "projectPath": "E:\\_Workspace\\Github\\Swastika-IO-Admin-Blazor\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj"
+            "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj": {
+              "projectPath": "e:\\_Workspace\\Github\\Swastika-IO-Admin\\src\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor\\Swastika_IO_Admin_Blazor.Shared\\Swastika_IO_Admin_Blazor.Shared.csproj"
             }
           }
         }

@@ -257,19 +257,16 @@
 
 [class*='fi-'].oi-flip-horizontal:before {
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 [class*='fi-'].oi-flip-vertical:before {
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(-1, 1);
   transform: scale(1, -1);
 }
 
 [class*='fi-'].oi-flip-horizontal-vertical:before {
   -webkit-transform: scale(-1, -1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, -1);
 }
 
