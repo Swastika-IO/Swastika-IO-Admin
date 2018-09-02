@@ -10088,14 +10088,12 @@ a:hover {
 }
 
 .card {
-  border: 0;
-  border-radius: .1875rem;
-  display: inline-block;
+  border: none;
+  border-radius: 5px;
   position: relative;
-  width: 100%;
-  margin-bottom: 30px;
-  -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.0625);
+  background-color: #fff;
 }
 
 .breadcrumb {
