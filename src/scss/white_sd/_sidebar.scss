@@ -43,7 +43,7 @@
 .sw-sidebar {
     order: 0;
     background-color: $sw-bg;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    // border-bottom: 1px solid rgba(0, 0, 0, .1);
     color: $color;
     padding-right: 15px;
     padding-left: 15px;
@@ -333,6 +333,9 @@
                 .mi{
                     color: #fff;
                 }
+                a{
+                    color: #fff;
+                }
                 
                 .btn-group{
                     opacity: 1;
@@ -353,7 +356,7 @@
             z-index: 1000;
             height: calc(100vh - 4rem);
         }
-        border-right: 1px solid rgba(0, 0, 0, .1);
+        // border-right: 1px solid rgba(0, 0, 0, .1);
     }
     @include media-breakpoint-up(xl) {
         max-width: 270px;
@@ -365,6 +368,9 @@
     padding-bottom: 1rem;
     margin-right: -15px;
     margin-left: -15px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
             max-height: calc(100vh - 4rem);
@@ -375,6 +381,10 @@
     @include media-breakpoint-up(md) {
         display: block !important;
     }
+}
+.sidebar-background
+{
+    background-image: url(https://demos.creative-tim.com/material-dashboard-dark/assets/img/sidebar-2.jpg);position: absolute;z-index: 1;height: 100%;width: 100%;/* display: block; */top: 0;left: 0;background-size: cover;background-position: 50%;opacity: 0.05;
 }
 
 .sw-search {

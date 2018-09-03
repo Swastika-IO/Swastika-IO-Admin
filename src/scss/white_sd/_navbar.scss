@@ -6,7 +6,7 @@
     min-height: 4rem;
     background-color: $sw-bg;
     box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
-    border-bottom: 1px solid rgba(0,0,0,.0625);
+    // border-bottom: 1px solid rgba(0,0,0,.0625);
     @include media-breakpoint-down(md) {
       padding-right: .5rem;
       padding-left: .5rem;
